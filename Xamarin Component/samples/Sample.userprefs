@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.3" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BouncyButton.Sample/MasterViewController.cs">
     <Files>
-      <File FileName="BouncyButton.Sample/AppDelegate.cs" Line="19" Column="4" />
-      <File FileName="BouncyButton.Sample/MasterViewController.cs" Line="36" Column="1" />
+      <File FileName="BouncyButton.Sample/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="BouncyButton.Sample/MasterViewController.cs" Line="13" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

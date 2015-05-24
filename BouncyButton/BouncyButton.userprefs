@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BouncyButton/UIBouncyButton.cs">
     <Files>
-      <File FileName="BouncyButton/UIBouncyButton.cs" Line="45" Column="28" />
+      <File FileName="BouncyButton/UIBouncyButton.cs" Line="8" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

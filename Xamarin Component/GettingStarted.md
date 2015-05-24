@@ -21,16 +21,3 @@ There are three additional properties on `UIBouncyButton` which are all of type 
 			};
 	}
 ```
-
-At the end of the shrink effect, before the rebound effect is applied the button's Highlighted status is set to true. Therefore to change the visual state/text of the button during the animation simply setup the highlighted state.
-	
-```
-	public override void ViewDidLoad()
-	{
-		base.ViewDidLoad();
-
-		var bouncyButton = new UIBouncyButton();
-
-		bouncyButton.SetTitle("Loading...", UIControlState.Highlighted);
-	}
-```

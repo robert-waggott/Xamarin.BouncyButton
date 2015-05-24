@@ -45,7 +45,6 @@ namespace BouncyButton.Sample
 			bouncyButton.Layer.BorderColor = UIColor.Red.CGColor;
 				
 			bouncyButton.SetTitle("Load", UIControlState.Normal);
-			bouncyButton.SetTitle("Loading", UIControlState.Highlighted);
 			bouncyButton.SetTitle("Loaded", UIControlState.Selected);
 
 			bouncyButton.SetTitleColor(UIColor.Red, UIControlState.Normal);
