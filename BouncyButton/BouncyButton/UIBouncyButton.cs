@@ -31,31 +31,31 @@
 
 		public Action AfterAnimation { get; set; }
 
-		protected virtual void OnTouch(object sender, EventArgs e)
+		protected async virtual void OnTouch(object sender, EventArgs e)
 		{
 			if (this.BeforeAnimation != null) 
 			{
 				this.BeforeAnimation.Invoke();
 			}
 
-			Animate(0.3, () => this.Transform = CGAffineTransform.MakeScale(0.83f, 0.83f));
-			Animate(0.2, () => this.Transform = CGAffineTransform.MakeScale(0.86f, 0.86f));
-			Animate(0.18, 
-				() => this.Transform = CGAffineTransform.MakeScale(0.85f, 0.85f), 
-				() => this.Highlighted = true);
+			await AnimateAsync(0.3, () => this.Transform = CGAffineTransform.MakeScale(0.83f, 0.83f));
+			await AnimateAsync(0.17, () => this.Transform = CGAffineTransform.MakeScale(0.86f, 0.86f));
+			await AnimateAsync(0.1, () => this.Transform = CGAffineTransform.MakeScale(0.85f, 0.85f));
+
+			this.Highlighted = true;
 
 			if (this.DuringAnimation != null)
 			{
 				this.DuringAnimation.Invoke();
 			}
 
-			Animate(0.1, 
-				() => this.Transform = CGAffineTransform.MakeScale(0.85f, 0.85f),
-				() => this.Highlighted = false);
-			Animate(0.18, () => this.Transform = CGAffineTransform.MakeScale(1.05f, 1.05f));
-			Animate(0.18, () => this.Transform = CGAffineTransform.MakeScale(0.98f, 0.98f));
-			Animate(0.17, () => this.Transform = CGAffineTransform.MakeScale(1.01f, 1.01f));
-			Animate(0.17, () => this.Transform = CGAffineTransform.MakeIdentity());
+			this.Highlighted = false;
+
+			await AnimateAsync(0.1, () => this.Transform = CGAffineTransform.MakeScale(0.85f, 0.85f));
+			await AnimateAsync(0.18, () => this.Transform = CGAffineTransform.MakeScale(1.05f, 1.05f));
+			await AnimateAsync(0.18, () => this.Transform = CGAffineTransform.MakeScale(0.98f, 0.98f));
+			await AnimateAsync(0.17, () => this.Transform = CGAffineTransform.MakeScale(1.01f, 1.01f));
+			await AnimateAsync(0.17, () => this.Transform = CGAffineTransform.MakeIdentity());
 
 			if (this.AfterAnimation != null)
 			{

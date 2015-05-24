@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewShaker.Sample", "ViewShaker.Sample\ViewShaker.Sample.csproj", "{3DE2AF7D-4785-459E-AC7A-00C67A57414B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BouncyButton.Sample", "BouncyButton.Sample\BouncyButton.Sample.csproj", "{9066BDF7-3E31-4399-A540-F6AB79D38B87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,24 +15,21 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.AppStore|iPhone.Build.0 = AppStore|iPhone
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Debug|iPhone.Build.0 = Debug|iPhone
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Release|Any CPU.ActiveCfg = Debug|iPhoneSimulator
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Release|Any CPU.Build.0 = Debug|iPhoneSimulator
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Release|iPhone.ActiveCfg = Release|iPhone
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Release|iPhone.Build.0 = Release|iPhone
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{3DE2AF7D-4785-459E-AC7A-00C67A57414B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = ViewShaker.Sample\ViewShaker.Sample.csproj
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Ad-Hoc|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Ad-Hoc|iPhone.Build.0 = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.AppStore|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.AppStore|iPhone.Build.0 = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Debug|iPhone.Build.0 = Debug|iPhone
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Release|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Release|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Release|iPhone.ActiveCfg = Release|iPhone
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Release|iPhone.Build.0 = Release|iPhone
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{9066BDF7-3E31-4399-A540-F6AB79D38B87}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 EndGlobal
