@@ -15,7 +15,9 @@ There are three additional properties on `UIBouncyButton` which are all of type 
 
 		var bouncyButton = new UIBouncyButton()
 			{
-
+				BeforeAnimation = () => Console.WriteLine("Before Animation"),
+				DuringAnimation = () => Console.WriteLine("During Animation"),
+				AfterAnimation = () => Console.WriteLine("After Animation")
 			};
 	}
 ```
@@ -28,5 +30,7 @@ At the end of the shrink effect, before the rebound effect is applied the button
 		base.ViewDidLoad();
 
 		var bouncyButton = new UIBouncyButton();
+
+		bouncyButton.SetTitle("Loading...", UIControlState.Highlighted);
 	}
 ```
