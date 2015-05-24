@@ -1,0 +1,12 @@
+mono xamarin-component.exe create-manually BouncyButton-1.0.xam \
+    --name="Bouncy Button" \
+    --summary="A button helper class to give a 'bounce' effect t your buttons on touch." \
+    --publisher="Robert Waggott" \
+    --website="https://github.com/robert-waggott/Xamarin.BouncyButton" \
+    --details="Details.md" \
+    --license="License.md" \
+    --getting-started="GettingStarted.md" \
+    --icon="ViewShaker_128x128.png" \
+    --icon="ViewShaker_512x512.png" \
+    --library="ios":"ViewShaker.dll" \
+    --sample="iOS Sample.":"Sample.sln"    
