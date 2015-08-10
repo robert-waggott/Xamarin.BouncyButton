@@ -1,5 +1,0 @@
-/Users/robertwaggott/Code/_Github/Xamarin.BouncyButton/BouncyButton/BouncyButton/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
-/Users/robertwaggott/Code/_Github/Xamarin.BouncyButton/BouncyButton/BouncyButton/bin/Release/BouncyButton.dll.mdb
-/Users/robertwaggott/Code/_Github/Xamarin.BouncyButton/BouncyButton/BouncyButton/bin/Release/BouncyButton.dll
-/Users/robertwaggott/Code/_Github/Xamarin.BouncyButton/BouncyButton/BouncyButton/obj/Release/BouncyButton.dll
-/Users/robertwaggott/Code/_Github/Xamarin.BouncyButton/BouncyButton/BouncyButton/obj/Release/BouncyButton.dll.mdb
